@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Peom Generator</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
   <div class="container">
@@ -13,20 +15,18 @@
     </header>
   
     <main>
-      <form>
-        <input type="search" autocomplete="off" class="input-class" placeholder="Enter topic.."/>
+      <form id="form">
+        <input type="search" autocomplete="off" autofocus class="input-class" placeholder="Enter topic.."/>
         <input type="submit" placeholder="Generate" class="submit-button" />
       </form>
   
-      <div class="poem">
-        text
-        <br />
-        text
-      </div>
+      <div class="poem" id="poem"></div>
     </main>
   
     <footer>Coded with html, css, javascript by <a>Natalie Vinyu</a> </footer>
   </div>
+
+<script src="index.js"></script>
   
 </body>
 </html>
