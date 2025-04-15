@@ -50,6 +50,10 @@ form {
   box-shadow: 0px 20px 60px rgb(65, 50, 100,0.08);
 }
 
+.hidden {
+  display: none;
+}
+
 footer {
   text-align: center;
   margin-top: 40px;
